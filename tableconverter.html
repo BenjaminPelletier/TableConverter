@@ -1,0 +1,24 @@
+<html>
+<head>
+
+</head>
+<body>
+<textarea id="result" cols="80" rows="20"></textarea>
+<script>
+const target = document.getElementById('result');
+
+target.addEventListener('paste', (event) => {
+    let paste = (event.clipboardData || window.clipboardData).getData('text/html');
+    paste = paste.toUpperCase();
+
+    target.value = paste;
+	event.preventDefault();
+});
+
+/*document.addEventListener('paste', function(e) {
+  var html = e.clipboardData.getData('text/html');
+  document.getElementById('result').value = "Hello";
+}*/
+</script>
+</body>
+</html>

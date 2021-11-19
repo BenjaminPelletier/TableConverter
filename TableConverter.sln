@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableConverter", "TableConverter.csproj", "{5D23EC72-9F63-48B7-940B-9F3C78C7C115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D23EC72-9F63-48B7-940B-9F3C78C7C115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D23EC72-9F63-48B7-940B-9F3C78C7C115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D23EC72-9F63-48B7-940B-9F3C78C7C115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D23EC72-9F63-48B7-940B-9F3C78C7C115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E730FCB3-ED07-4171-9102-2E992E7D52B4}
+	EndGlobalSection
+EndGlobal
